@@ -1,0 +1,115 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__title {
+  display: block;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  margin: 202px 0 28px;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  max-width: 729px;
+}
+
+.header__span-accent {
+  font-family: "Noto serif", serif;
+  font-style: italic;
+  font-weight: normal;
+  display: block;
+  color: #2f80ed;
+  margin: 0;
+  border: 0;
+  line-height: 72px;
+  font-size: 60px;
+}
+
+.header__description {
+  font-family: "Noto serif", serif;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  height: 568px;
+  width: 646px;
+  margin: 0;
+  top: 124px;
+  right: 5px;
+  max-width: 683px;
+}
+
+.header__footer {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 40px;
+  width: 100%;
+  padding: 0 80px;
+  left: 0;
+}
+
+.header__para {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #6f6f6f;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin: 0;
+  column-gap: 20px;
+}
+
+.nav__link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}

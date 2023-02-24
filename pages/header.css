@@ -14,7 +14,7 @@
 .header__title {
   display: block;
   position: relative;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   margin: 202px 0 28px;
   font-weight: 500;
@@ -24,7 +24,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   display: block;
@@ -36,7 +36,7 @@
 }
 
 .header__description {
-  font-family: "Noto serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   position: relative;
   font-style: normal;
   font-weight: normal;
@@ -69,7 +69,7 @@
 }
 
 .header__para {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   color: #6f6f6f;
   font-weight: 500;
@@ -101,7 +101,7 @@
 }
 
 .nav__link {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;

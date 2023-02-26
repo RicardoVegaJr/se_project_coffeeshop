@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(./page.css);
-@import url(../pages/header.css);
+@import url(./header.css);
 @import url(./menu.css);
 @import url(./recipes.css);
+@import url(./reservation.css);

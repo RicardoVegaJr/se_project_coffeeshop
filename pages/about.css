@@ -1,3 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
 @keyframes pulsate {
   0% {
     opacity: 0;
@@ -8,6 +31,7 @@
   }
 
   100% {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 0;
   }
@@ -19,7 +43,11 @@
   background-color: #0a2850;
   overflow: hidden;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   z-index: 0;
 }
@@ -62,5 +90,6 @@
 }
 
 .about__circle_animation_blurred {
+  -webkit-animation: pulsate 2s infinite 0s ease-in-out;
   animation: pulsate 2s infinite 0s ease-in-out;
 }

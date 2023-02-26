@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .recipes {
   margin: 0;
   padding: 100px 0 215px 80px;
@@ -6,6 +13,7 @@
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .recipes__title {
@@ -29,13 +37,21 @@
 }
 
 .recipes__videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 40px;
 }
 
 .recipes__video-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -46,5 +62,7 @@
 
 .recipes__video-caption-divider {
   border-bottom: 1px solid #ffffff;
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
   flex-grow: 2;
 }

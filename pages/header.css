@@ -1,9 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .header {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
@@ -57,10 +65,17 @@
 }
 
 .header__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: absolute;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   bottom: 40px;
   width: 100%;
@@ -68,7 +83,7 @@
   left: 0;
 }
 
-.header__para {
+.header__paragraph {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   color: #6f6f6f;
@@ -87,16 +102,26 @@
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
 .nav__links {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
   margin: 0;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
   column-gap: 20px;
 }
 
@@ -107,6 +132,8 @@
   line-height: 20px;
   font-size: 16px;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 

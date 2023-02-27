@@ -1,14 +1,16 @@
-.menu__cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 100px;
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.card {
+  list-style: none;
+  max-width: 600px;
+  width: 100%;
 }
+
 .card__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -18,13 +20,6 @@
   color: #ffffff;
   margin: 0 0 32px 0;
 }
-
-.card {
-  list-style: none;
-  max-width: 600px;
-  width: 100%;
-}
-
 .card__list-item {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;

@@ -51,38 +51,3 @@
   flex-wrap: wrap;
   gap: 100px;
 }
-.card__title {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-  margin: 0 0 32px 0;
-}
-
-.card {
-  list-style: none;
-  max-width: 600px;
-  width: 100%;
-}
-
-.card__list-item {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 0 16px 0;
-}
-
-.card__list-divider {
-  border-bottom: 2px solid #ffffff;
-  -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
-}

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .form__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -21,11 +28,6 @@
   margin: 0 0 32px 0;
   max-width: 385px;
   height: 60px;
-}
-
-.reservation__form {
-  max-width: 385px;
-  margin: 0 auto;
 }
 
 .form__fieldset {

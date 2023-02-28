@@ -8,7 +8,10 @@
 .card {
   list-style: none;
   max-width: 600px;
-  width: 100%;
+  width: 42%;
+  margin: 0;
+  padding: 0;
+  text-align: start;
 }
 
 .card__title {
@@ -20,6 +23,12 @@
   color: #ffffff;
   margin: 0 0 32px 0;
 }
+
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
 .card__list-item {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -31,6 +40,10 @@
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 16px 0;
+}
+
+.card__list-item:last-child {
+  margin: 0;
 }
 
 .card__list-divider {

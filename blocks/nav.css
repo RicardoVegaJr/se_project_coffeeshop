@@ -36,6 +36,7 @@
   line-height: 20px;
   font-size: 16px;
   text-decoration: none;
+  color: #000000;
   -webkit-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
